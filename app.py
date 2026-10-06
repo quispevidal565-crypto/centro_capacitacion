@@ -89,3 +89,5 @@ if __name__ == "__main__":
     ver_alumnos()
 
     print("\nTodo listo")
+    # fin del programa
+    
