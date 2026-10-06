@@ -58,6 +58,8 @@ def ver_cursos():
     for fila in lista:
         print(fila[0], "-", fila[1], "-", fila[2], "- Bs", fila[3])
     return lista
+# se muestran los datos en la pantalla
+
 
 def ver_alumnos():
     conn = conectar()
