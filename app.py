@@ -39,6 +39,7 @@ def agregar_curso(nombre, tiempo, costo):
     conn.commit()
     conn.close()
     print("Curso agregado:", nombre)
+    # todo aprobado funciona
 
 def agregar_alumno(nombre, ci, curso):
     conn = conectar()
@@ -59,7 +60,6 @@ def ver_cursos():
         print(fila[0], "-", fila[1], "-", fila[2], "- Bs", fila[3])
     return lista
 # se muestran los datos en la pantalla
-
 
 def ver_alumnos():
     conn = conectar()
